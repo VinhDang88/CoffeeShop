@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<body style="
+background-image: url(https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)">
+
+
+
+</body>
+
+
+
+
+<form method="post" asp-action="UserCheckResult">
+    <!-- name of input will be its variable-->
+    <h1>First Name:</h1>
+    <input type="text" name= "FirstName" />
+    <h1>Last Name:</h1>
+    <input type="text" name="LastName" />
+    <h1>Email:</h1>
+    <input type="text" name="Email" />
+    <h1>Password:</h1>
+    <input type="password" name="Password" />
+    <!-- On click, will send values to associated action-->
+    <input type="submit" />
+
+</form>
